@@ -1,2 +1,2 @@
 # MPAD-ScrollyTelly
-MPAd 4000 Capstone ScrollyTelly With City Studio Ottawa
+MPAD 4000 Capstone ScrollyTelly With City Studio Ottawa
