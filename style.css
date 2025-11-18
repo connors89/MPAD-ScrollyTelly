@@ -1,0 +1,92 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background: white;
+  color: #222;
+}
+
+.title {
+  text-align: center;
+  margin: 3rem 0;
+  font-size: 2rem;
+}
+
+/* GENERAL SCROLL SECTION LAYOUT */
+section {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50vh; /* gives room between sections */
+}
+
+.scroll__graphic {
+  position: sticky;
+  top: 20vh;
+  height: 60vh;
+  width: 40%;
+  transition: all ease-in-out 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.graphic-box {
+  background: #eee;
+  border: 2px dashed #ccc;
+  transition: all ease-in-out 0.3s;
+  width: 80%;
+  height: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.graphic-box:hover {
+	background-image: url("images/CSO.png");
+  transition: all ease-in-out 0.5s;
+  width: 89%;
+  height: 70%;
+  display: flex;
+
+}
+
+
+.graphic-box.second {
+  background: #ddd;
+  border: 2px dashed #aaa;
+}
+
+.scroll__text {
+  width: 40%;
+  padding-bottom: 100vh; 
+}
+
+
+
+.step {
+  margin: 50vh 0;
+  padding: 2rem;
+  background: #f0f0f0;
+  border-radius: 10px;
+  text-align: center;
+  transition: background 0.3s, transform 0.3s;
+}
+
+
+.step:hover:hover {
+	background:  #44a8f5;
+  transform: scale(1.05);
+}
+
+.step.is-active {
+  background: #d0ebff;
+  transform: scale(1.10);
+}
+
+h1{
+  font-size: 60px;
+}
+
